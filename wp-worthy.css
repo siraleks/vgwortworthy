@@ -1,0 +1,459 @@
+#dashboard_right_now .t-worthy-relevant a {
+  color: #c00;
+}
+
+#wp-worthy-pixel {
+  line-height: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#icon-wp_worthy {
+  background: transparent url("admin_icon_big.png") no-repeat;
+}
+
+.worthy-publish .value {
+  float: right;
+  padding-left: 10px;
+}
+
+.wp-worthy-positive,
+.wp-worthy-marker,
+.wp-worthy-neutral.worthy-status {
+  font-weight: bold;
+  color: #0c0;
+}
+
+.worthy-nomarker {
+  color: #c00;
+}
+
+.wp-worthy-status ul {
+  padding-left: 20px;
+}
+
+.wp-worthy-status ul > li {
+  list-style: square;
+}
+
+.nav-tab-right {
+  float: right;
+  margin-top: -1px;
+}
+
+.worthy-form {
+  width: 600px;
+}
+
+.worthy-signup {
+  float: left;
+}
+
+#wp-worthy-signup {
+  width: 340px;
+  min-width: 340px;
+}
+
+.worthy-signup + div {
+  padding-left: 370px;
+  max-width: 500px;
+}
+
+.worthy-form p {
+  min-height: 28px;
+  line-height: 24px;
+  vertical-align: top;
+  clear: both;
+}
+
+.worthy-form p label {
+  display: inline-block;
+  width: 200px;
+}
+
+#wp-worthy-signup p label {
+  width: 120px;
+}
+
+.worthy-form p input + label {
+  width: auto;
+  max-width: 560px;
+}
+
+#wp-worthy-signup p input + label {
+  width: auto;
+  max-width: 315px;
+}
+
+.worthy-form p input[type=text],
+.worthy-form p input[type=password],
+.worthy-form p input[type=file],
+.worthy-form p select,
+.worthy-form p textarea {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 370px;
+  float: right;
+}
+
+#wp-worthy-signup p input[type=text],
+#wp-worthy-signup p input[type=password],
+#wp-worthy-signup p select,
+#wp-worthy-signup p textarea {
+  width: 210px;
+}
+
+#worthy-feedback p textarea {
+  height: 200px;
+}
+
+#wp-worthy table select {
+  max-width: 100%;
+}
+
+.worthy-form button {
+  float: right;
+}
+
+.worthy-premium {
+  background: #911;
+  color: #fff;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.worthy-premium:focus,
+.worthy-premium:active {
+  color: #fff;
+}
+
+.worthy-premium:hover,
+.worthy-premium.nav-tab-active {
+  background: #b11;
+  color: #fff;
+}
+
+.worthy-premium.nav-tab-active {
+  border-bottom: 1px solid #b11;
+}
+
+.worthy-premium-active {
+  background-color: #119;
+}
+
+.worthy-premium-active:hover,
+.worthy-premium-active.nav-tab-active {
+  background-color: #11b;
+}
+
+.worthy-premium.nav-tab-active {
+  border-bottom-color: #11b;
+}
+
+.worthy-premium.nav-tab-active:hover {
+  border-bottom: 1px solid #b11;
+}
+
+div.wp-worthy-menu-half {
+  width: 47%;
+  float: left;
+  padding: 0 10px;
+}
+
+div.wp-worthy-menu-half p {
+  width: 68%;
+  min-width: 380px;
+}
+
+@keyframes blink {
+  0% { color: #000; }
+  50% { color: #fff; }
+}
+
+input[type=number] {
+  padding-right: 0px;
+}
+
+.wp-worthy-neutral,
+.wp-worthy-warning,
+.wp-worthy-notice,
+.wp-worthy-relevant,
+.wp-worthy-status-0,
+.wp-worthy-status-1,
+.wp-worthy-status-2,
+.wp-worthy-status-3,
+.wp-worthy-status-4 {
+  display: block;
+  font-weight: bold;
+}
+
+.wp-worthy-important {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.wp-worthy-warning,
+.wp-worthy-notice {
+  text-indent: -22px;
+  padding-left: 22px;
+  margin-bottom: 5px;
+}
+
+.wp-worthy-warning:before,
+.wp-worthy-notice:before {
+  content: "!";
+  margin: 0 5px 0 0;
+  padding: 0 4px;
+  border: 2px solid #c00;
+  border-radius: 2px;
+}
+
+.wp-worthy-notice:before {
+  padding: 0 5px;
+  border-color: #cc0;
+  border-width: 1px;
+}
+
+.wp-worthy-status-0 {
+  color: #c00;
+}
+
+.wp-worthy-status-1,
+.wp-worthy-warning {
+  color: #c00;
+  font-weight: bold;
+}
+
+.wp-worthy-notice,
+.wp-worthy-status-2 {
+  color: #cc0;
+  font-weight: bold;
+}
+
+.wp-worthy-status-3 {
+  color: #0c0;
+  font-weight: bold;
+}
+
+table.posts .wp-worthy-status-1 {
+  font-weight: normal;
+}
+
+.wp-worthy-label {
+  display: inline-block;
+  min-width: 250px;
+  margin-right: 10px;
+}
+
+.wp-worthy-price {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.column-private,
+.column-public,
+.column-marker {
+  word-wrap: normal;
+  width: 270px;
+}
+
+.column-status {
+  width: 150px;
+}
+
+.column-marker abbr {
+  display: inline-block;
+  width: 12px;
+  text-align: center;
+}
+
+.worthy-report-preview {
+  padding-left: 25px;
+}
+
+.worthy-report-preview input {
+  margin-left: -25px;
+}
+
+.worthy-report-preview span {
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+form.worthy_inline {
+  display: inline;
+}
+
+#wp-worthy button[data-action],
+form.worthy_inline button {
+  cursor: pointer;
+  color: #0073AA;
+  text-decoration: underline;
+  border: none;
+  background: none;
+  padding: 1px 2px;
+}
+
+.worthy-exclamation {
+  float: left;
+  display: block;
+  margin: 0 10px 10px 0;
+  padding: 0 20px;
+  border: 3px solid #f00;
+  border-radius: 8px;
+  font-size: 42px;
+}
+
+pre.wp-worthy-preview {
+  margin-right: 20px;
+  white-space: pre-wrap;
+}
+
+span.wp-worthy-inline-title,
+span.wp-worthy-inline-content {
+  display: block;
+  margin: 1px;
+  padding: 2px;
+}
+
+span.wp-worthy-inline-title:hover,
+span.wp-worthy-inline-content:hover {
+  margin: 0px;
+  border: 1px solid #999;
+}
+
+div.wp-worthy-inline-title {
+  margin-bottom: 15px;
+}
+
+input.wp-worthy-inline-title {
+  width: 100%;
+}
+
+span.wp-worthy-inline-counter {
+  display: block;
+  margin: 4px 0 0;
+  font-size: 0.8em;
+}
+
+textarea.wp-worthy-inline-content {
+  width: 100%;
+  min-height: 400px;
+}
+
+ul#worthy-marker-status ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+#wp-worthy .stuffbox .inside {
+  padding: 0 12px;
+}
+
+#wp-worthy .stuffbox h2 {
+  padding: 12px 12px 0;
+}
+
+#wp-worthy .stuffbox h3 {
+  padding: 0;
+}
+
+.toplevel_page_wp_worthy-overview .wp-menu-image img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+#wp-worthy td.column-actions ul:first-child {
+  margin-top: 0px;
+}
+
+.wp-worthy-danger {
+  color: #a00;
+}
+
+.wp-worthy-ignored { }
+
+#wp-worthy > .subnav {
+  padding: 4px 0 0 5px;
+}
+
+#wp-worthy > .subnav a {
+  margin: 0 2px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#wp-worthy > .subnav a:before {
+  content: "[";
+  padding-right: 2px;
+}
+
+#wp-worthy > .subnav a:after {
+  content: "]";
+  padding-left: 2px;
+}
+
+li.wp-worthy-dashboard-reportable,
+li.wp-worthy-dashboard-unassigned,
+li.wp-worthy-dashboard-unused {
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+li.wp-worthy-dashboard-reportable a:before,
+li.wp-worthy-dashboard-unassigned a:before,
+li.wp-worthy-dashboard-unused a:before {
+  margin-left: -25px;
+}
+
+#dashboard_right_now li.wp-worthy-dashboard-message a:before {
+  content: "\f227";
+}
+
+#dashboard_right_now li.wp-worthy-dashboard-message-warning a:before {
+  content: "\f153";
+}
+
+#dashboard_right_now li.wp-worthy-dashboard-reportable a:before {
+  content: "\f488";
+}
+
+#dashboard_right_now li.wp-worthy-dashboard-unassigned a:before {
+  content: "\f237";
+}
+
+#dashboard_right_now li.wp-worthy-dashboard-unused a:before {
+  content: "\f498";
+}
+
+.qcWP-badge-content {
+  display: block;
+  padding: 0 6px;
+}
+
+.wp-worthy-length-short {
+  color: #c00;
+}
+
+.wp-worthy-length-partial {
+  color: #cc0;
+  font-weight: bold;
+}
+
+.wp-worthy-length-qualified {
+  color: #0c0;
+  font-weight: bold;
+}
+
+.wp-worthy-gutenberg-dropdown {
+  z-index: 1000000 !important;
+}
+
+.wp-worthy-gutenberg-dropdown .components-popover__content {
+  padding: 10px;
+  min-width: 225px;
+}
